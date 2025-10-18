@@ -17,6 +17,8 @@ jobs:
         with:
           version: 10.18.3
       - name: Build
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/
         run: |
           pnpm i
           pnpm build
