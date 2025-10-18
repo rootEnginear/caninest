@@ -1,10 +1,8 @@
-import { Title } from "@solidjs/meta";
 import Counter from "~/components/Counter";
 
 export default function Home() {
   return (
     <main>
-      <Title>Hello World</Title>
       <h1 class="text-5xl text-red-500 font-bold">Hello world!</h1>
       <Counter />
       <p>
