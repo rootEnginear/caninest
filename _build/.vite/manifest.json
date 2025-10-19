@@ -1,54 +1,51 @@
 {
-  "_HttpStatusCode-c_YaAr68.js": {
-    "file": "assets/HttpStatusCode-c_YaAr68.js",
+  "_HttpStatusCode-CjCvzenY.js": {
+    "file": "assets/HttpStatusCode-CjCvzenY.js",
     "name": "HttpStatusCode",
     "imports": [
-      "_web-B61NnTQ5.js"
+      "_web-D9Sxpu4B.js"
     ]
   },
-  "_web-B61NnTQ5.js": {
-    "file": "assets/web-B61NnTQ5.js",
+  "_web-D9Sxpu4B.js": {
+    "file": "assets/web-D9Sxpu4B.js",
     "name": "web"
   },
   "src/routes/[...404].tsx?pick=default&pick=$css": {
-    "file": "assets/_...404_-B9OHonxV.js",
+    "file": "assets/_...404_-u6XrnDFa.js",
     "name": "_...404_",
     "src": "src/routes/[...404].tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-B61NnTQ5.js",
-      "_HttpStatusCode-c_YaAr68.js"
+      "_web-D9Sxpu4B.js",
+      "_HttpStatusCode-CjCvzenY.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-DbhtzMjp.js",
+    "file": "assets/index-JR5_bApf.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-B61NnTQ5.js"
-    ],
-    "css": [
-      "assets/index-CWIoMshG.css"
+      "_web-D9Sxpu4B.js"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-TW-6z8Sl.js",
+    "file": "assets/client-O_FWVC5n.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_HttpStatusCode-c_YaAr68.js",
-      "_web-B61NnTQ5.js"
+      "_HttpStatusCode-CjCvzenY.js",
+      "_web-D9Sxpu4B.js"
     ],
     "dynamicImports": [
       "src/routes/[...404].tsx?pick=default&pick=$css",
       "src/routes/index.tsx?pick=default&pick=$css"
     ],
     "css": [
-      "assets/client-BexeA85o.css"
+      "assets/client-BwU567Xv.css"
     ]
   }
 }

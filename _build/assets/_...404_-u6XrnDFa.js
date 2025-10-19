@@ -1,0 +1,1 @@
+import{j as t,t as e,w as o}from"./web-D9Sxpu4B.js";import{T as a,H as n}from"./HttpStatusCode-CjCvzenY.js";var r=o("<main><h1>Page Not Found");function d(){return[t(a,{children:"Not Found — Can I nest"}),t(n,{code:404}),e(r)]}export{d as default};
