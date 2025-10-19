@@ -1,3 +1,53 @@
 @tailwind base;
+
+@layer base {
+  *,
+  ::before,
+  ::after {
+    @apply relative;
+  }
+
+  html {
+    /* color-scheme: dark; */
+    @apply scroll-smooth text-pretty tabular-nums antialiased;
+    overflow-x: hidden;
+    overflow-x: clip;
+    /* https://kilianvalkhof.com/2022/css-html/your-css-reset-needs-text-size-adjust-probably/ */
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+
+  body {
+    @apply min-h-svh;
+  }
+}
+
 @tailwind components;
+
+@layer components {
+}
+
 @tailwind utilities;
+
+@layer utilities {
+  .nobr {
+    white-space: nowrap;
+  }
+
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+
+  summary.no-arrow {
+    list-style: none;
+  }
+
+  summary.no-arrow::-webkit-details-marker {
+    display: none;
+  }
+}
